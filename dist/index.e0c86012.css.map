@@ -1,0 +1,1 @@
+{"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["src/app.css"],"sourcesContent":["h1 {\n}\n\nbody, html {\n  cursor: none;\n  font-family: Inconsolata;\n  background-color: #111;\n  color: #fafafa;\n  text-align: center;\n}\n"],"names":[],"version":3,"file":"index.e0c86012.css.map","sourceRoot":"/__parcel_source_root/"}
