@@ -8,7 +8,7 @@ const board = new Array(height*width)
 
 const term = document.getElementById('term')
 const log = document.getElementById('log')
-const introMessage = "    Pulsa una tecla    "
+const introMessage = "    Acaricia una tecla    "
 
 const maxFPS = 10
 
