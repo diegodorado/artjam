@@ -35,7 +35,7 @@ const draw = () => {
       let i = 0
       for(let x = 0; x< width; x++){
         if(Math.floor(frameIndex/16) % 2 && Math.abs(Math.floor(width/2)-x) <= introMessage.length/2){
-          if(Math.floor(height/2) === y){
+          if(Math.floor(height/2) === y && i < introMessage.length){
             row += introMessage[i++]
           }
           else{
