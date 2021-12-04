@@ -248,8 +248,10 @@ const mainLoop = (timestamp) => {
 }
 
 const onKeydown = (ev) => {
-  step++
-  stepFrameAt = frameIndex
+  if(ev.keyCode === 32 || ev.keyCode === 13){
+    step++
+    stepFrameAt = frameIndex
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
